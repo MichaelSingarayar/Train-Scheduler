@@ -1,0 +1,71 @@
+body {
+    background-image: url(../images/daniel-abadia-679938-unsplash.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover; 
+    min-height: 100%;
+    width: 100%;
+    padding-bottom: 15%;
+    
+    
+    
+}
+.form-control:focus {
+    border-color: rgb(163, 59, 64) !important;
+    box-shadow: 0 0 5px rgb(163, 59, 64) !important;
+  }
+
+.panel-transparent {
+    background: none;
+}
+
+.panel-transparent .panel-heading{
+    background: rgba(122, 130, 136, 0.5)!important;
+}
+
+.panel-transparent .panel-body{
+    background: rgba(46, 51, 56, 0.5)!important;
+}
+
+label {
+    color: white;
+}
+
+th {
+    color: white;
+}
+
+td {
+    color:  rgb(163, 59, 64);
+}
+
+input {
+    background: rgba(122, 130, 136, 0.2)!important;
+    color:  rgb(163, 59, 64)!important;
+}
+
+textarea:focus, input:focus {
+    color:  white;
+}
+
+button {
+    color:  rgb(163, 59, 64);
+}
+
+div.jumbotron {
+    background: transparent;
+}
+
+#header {
+    color: rgb(163, 59, 64);
+    font-size: 80px; 
+}
+
+#secheader {
+    color: rgb(163, 59, 64);
+    font-size: 40px;
+}
+
+h3 {
+    color: white;
+}
